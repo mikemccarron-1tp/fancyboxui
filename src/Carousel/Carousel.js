@@ -140,7 +140,7 @@ export class Carousel extends Base {
     this.$track = this.option("track") || this.$container.querySelector(`.${prefix}${classNames.track}`);
 
     if (!this.$track) {
-      this.$track = document.createElement("div");
+      this.$track = document.createElement("ul");
       this.$track.classList.add(...(prefix + classNames.track).split(" "));
 
       this.$track.append(...this.$viewport.childNodes);
