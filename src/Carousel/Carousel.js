@@ -325,7 +325,7 @@ export class Carousel extends Base {
     if (!node) {
       const firstSlide = this.slides[0];
 
-      node = document.createElement("div");
+      node = document.createElement("li");
 
       node.dataset.isTestEl = 1;
       node.style.visibility = "hidden";
