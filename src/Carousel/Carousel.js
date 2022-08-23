@@ -643,7 +643,7 @@ export class Carousel extends Base {
       return;
     }
 
-    const div = document.createElement("div");
+    const div = document.createElement("li");
 
     div.dataset.index = slide.index;
     div.classList.add(...(this.option("prefix") + this.option("classNames.slide")).split(" "));
