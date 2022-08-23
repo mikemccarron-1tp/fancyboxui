@@ -17,7 +17,7 @@ const defaults = {
   // Customize Carousel instance
   Carousel: {},
 
-  tpl: `<div class="fancybox__thumb" style="background-image:url('{{src}}')"></div>`,
+  tpl: `<button class="fancybox__thumb" style="background-image:url('{{src}}')"></button>`,
 };
 
 export class Thumbs {
